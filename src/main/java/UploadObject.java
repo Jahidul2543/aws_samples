@@ -15,7 +15,8 @@ import java.io.IOException;
 public class UploadObject {
 
     public static void main(String[] args) throws IOException {
-        Regions clientRegion = Regions.DEFAULT_REGION;
+        // Regions clientRegion = Regions.DEFAULT_REGION;
+        Regions clientRegion = Regions.US_EAST_1;
         String bucketName = "batch2001";
         String stringObjKeyName = "newfile.txt";
         String fileObjKeyName = "demoooooo.txt";
