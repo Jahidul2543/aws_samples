@@ -1,3 +1,4 @@
+package s3demo;
 
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.SdkClientException;
